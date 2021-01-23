@@ -1,8 +1,8 @@
 # 点击通讯录
 from appium.webdriver.common.mobileby import MobileBy
 
-from live_lesson.PO.page.addresslist_page import AddressListPage
-from live_lesson.PO.page.basepage import BasePage
+from live_lesson.pageobject.page.addresslist_page import AddressListPage
+from live_lesson.pageobject.page.basepage import BasePage
 
 
 class MainPage(BasePage):

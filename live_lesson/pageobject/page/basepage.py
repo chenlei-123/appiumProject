@@ -15,5 +15,5 @@ class BasePage:
                    'scrollable(true).instance(0)).'
                    'scrollIntoView(new UiSelector().'
                    f'text("{text}").instance(0));')
-        self.find(element)
+        return self.find(element)
 

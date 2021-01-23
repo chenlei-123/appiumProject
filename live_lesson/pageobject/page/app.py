@@ -1,8 +1,8 @@
 # 启动app/关闭app/启动app、进入首页。。
 from appium import webdriver
 
-from live_lesson.PO.page.basepage import BasePage
-from live_lesson.PO.page.main_page import MainPage
+from live_lesson.pageobject.page.basepage import BasePage
+from live_lesson.pageobject.page.main_page import MainPage
 
 
 class App(BasePage):
@@ -16,8 +16,8 @@ class App(BasePage):
             desired_caps['appActivity'] = '.launch.LaunchSplashActivity'
             # 不清空本地缓存
             desired_caps['noReset'] = 'true'
-            desired_caps['dontStopAppOnReset'] = 'true'
-            desired_caps['skipDeviceInitialization'] = 'true'
+            # desired_caps['dontStopAppOnReset'] = 'true'
+            # desired_caps['skipDeviceInitialization'] = 'true'
             desired_caps['unicodeKeyBoard'] = 'true'
             # 设置页面空闲状态为0秒
             desired_caps['settings[waitForIdleTimeout]'] = 0

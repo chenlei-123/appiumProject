@@ -1,7 +1,7 @@
 from appium.webdriver.common.mobileby import MobileBy
 
-from live_lesson.PO.page.basepage import BasePage
-from live_lesson.PO.page.contactedit_page import ContactEditPage
+from live_lesson.pageobject.page.basepage import BasePage
+from live_lesson.pageobject.page.contactedit_page import ContactEditPage
 
 
 class MemberInvitePage(BasePage):

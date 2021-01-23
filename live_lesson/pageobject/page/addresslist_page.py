@@ -1,5 +1,5 @@
-from live_lesson.PO.page.basepage import BasePage
-from live_lesson.PO.page.memberinvite_Page import MemberInvitePage
+from live_lesson.pageobject.page.basepage import BasePage
+from live_lesson.pageobject.page.memberinvite_Page import MemberInvitePage
 
 
 class AddressListPage(BasePage):
